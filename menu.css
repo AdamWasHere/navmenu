@@ -1,0 +1,125 @@
+/***************************************************
+Add your Google Fonts - DONE
+Update ALL the named colours to create a monochromatic scheme - DONE
+Style the menus - one horizontally and one vertically -DONE
+Add the hover/active effects to your menu items - DONE
+***************************************************/
+
+@import url('https://fonts.googleapis.com/css?family=Average|Fjalla+One') * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    line-height: 1.6;
+    /* ADD the Google sans-serif font to this font stack */
+    font-family: 'Fjalla One', helvetica, arial, sans-serif;
+}
+
+html,
+body {
+    background-color: #123A73;
+}
+
+h1 {
+    font-size: 6.854rem;
+    /* ADD the Google serif font to this font stack */
+    font-family: Average, 'Book Antiqua', Palatino, serif;
+    padding: 1rem 2rem;
+}
+
+h2 {
+    font-size: 4.23rem;
+    /* ADD the Google serif font to this font stack */
+    font-family: Average, 'Book Antiqua', Palatino, serif;
+    padding: 1rem 2rem;
+}
+
+nav li {
+    font-size: 2.618rem;
+}
+
+p {
+    font-size: 1.618rem;
+    padding: 1rem 2rem;
+}
+
+.wrapper {
+    max-width: 1400px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #1E60C0;
+    color: #2679F3;
+}
+
+header {
+    border-bottom: 0.8rem solid #324D73;
+    background-color: #70A6F5;
+    color: #324D73;
+}
+
+.menu-h {
+    width: 100%;
+}
+
+.menu-h li {
+    width: 20%;
+    list-style: none;
+    float: left;
+    /* style the list items to remove the bullets 
+        and line up horizontally
+        and take up 20% of the width of the ul */
+}
+
+.menu-h a,
+.menu-h a:link,
+.menu-h a:visited {
+    width: 100%;
+    padding: 1rem;
+    /* style the anchors to fill the entire width of the li 
+            make sure there is padding around your text */
+}
+
+.menu-h a:hover,
+.menu-h a:active {
+    color: #70A6F5;
+
+}
+
+.menu-v {
+    width: 20%;
+    float: left;
+}
+
+.menu-v li {
+    list-style: none;
+    width: 100%;
+    padding-left: 1rem;
+    /* style the list items to remove the bullets 
+        and line up vertically
+        and take up 100% of the width of the ul */
+}
+
+.menu-v a,
+.menu-v a:link,
+.menu-v a:visited {
+    width: 100%
+    /* style the anchors to fill the entire width of the li */
+}
+
+.menu-v a:hover,
+.menu-v a:active {
+    color: #70A6F5;
+
+}
+
+main {
+    width: 80%;
+    float: right;
+}
+
+footer {
+    clear: both;
+}
